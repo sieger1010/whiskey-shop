@@ -1,0 +1,17 @@
+#landingContainer  {
+    background: url('../images/bottles-background-xl.jpg'); //initial image
+    height: 100vh;
+    background-size: 110vw auto;
+    background-position: 0% 46%;
+    animation: backgroundScroll 8s linear infinite;
+}
+
+#landingOverlay {
+    background: radial-gradient(circle at bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7));
+    height: 100vh;
+}
+
+@keyframes backgroundScroll {
+    from {background-position: 0% 46%;}
+    to {background-position: 30% 50%;}
+}

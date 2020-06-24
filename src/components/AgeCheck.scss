@@ -1,0 +1,39 @@
+input[type=number] {
+    color: #ddd;
+    background-color: #5a5a5a;
+    font-size: 1.5em;
+    height: 1.8em;
+    border-radius: 6px;
+    border: none;
+    margin: 10px 0.2em;
+    width: 2em;
+	text-align: center;
+	outline: none;
+
+    /* Firefox */
+    -moz-appearance: textfield;
+}
+input[type=number]:first-of-type {
+	width: 2.9em;
+}
+/* Webkit */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.ageCheckWrapper {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 100;
+	height: 100vh;
+	width: 100vw;
+	background-color: #282828;
+}
+
+.logoFont {
+	font-family: 'Meddon', cursive;
+
+}
