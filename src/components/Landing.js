@@ -1,19 +1,40 @@
 import React, {useState} from 'react';
 import './Landing.scss';
+import { useEffect } from 'react';
 
 function Landing () {
 
-    const [imageIndex, changeImageIndex] = useState(0);
-    const images = ['../images/bottles-background-xl.jpg', '../images/bottles-background2-xl.jpg', '../images/bottles-background3-xl.jpg']
+    const [index, changeIndex] = useState(0);
+    const numElements = 3;
+
+    useEffect(() => {
+        setTimeout(() => {
+            changeIndex(() => {
+                if (index === 2) {
+                    return 0;
+                }
+                else {
+                    return index + 1;
+                }
+            })
+        }, 14250)
+        const elements = document.getElementsByClassName('landingImage');
+        elements[index].classList.add('fx');
+        if (index === 0) {
+            elements[(numElements - 1)].classList.remove('fx');
+        }
+        else {
+            elements[(index - 1)].classList.remove('fx');
+        }
+    })
 
     return (
         <div>
-            <div className="container-fluid" id="landingContainer">
-                <div className="row">
-                    <div className="col-12 d-flex flex-column text-center justify-content-center" id="landingOverlay">
-                        <h1 className="text-white">Test</h1>
-                    </div>
-                </div>
+            <div id="landingContainer">
+                <div className="landingImage firstImage"></div>
+                <div className="landingImage secondImage"></div>
+                <div className="landingImage thirdImage"></div>
+                <div id="landingOverlay"></div>
             </div>
         </div>
     );

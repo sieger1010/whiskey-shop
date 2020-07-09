@@ -1,17 +1,46 @@
-#landingContainer  {
-    background: url('../images/bottles-background-xl.jpg'); //initial image
+#landingContainer {
+    background-color: #444;
     height: 100vh;
-    background-size: 110vw auto;
-    background-position: 0% 46%;
-    animation: backgroundScroll 8s linear infinite;
+    width: 100vw;
 }
-
 #landingOverlay {
-    background: radial-gradient(circle at bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7));
+    background: radial-gradient(circle at bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6));
+    position: absolute;
+    left: 0;
+    top: 0;
     height: 100vh;
+    width: 100vw;
 }
-
-@keyframes backgroundScroll {
-    from {background-position: 0% 46%;}
-    to {background-position: 30% 50%;}
+.landingImage {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.firstImage {
+    background-image: url('../images/bottles-background-xl.jpg');
+    background-size: 110vw auto;
+    opacity: 0;
+    transition: background-position 15s linear,
+    opacity 750ms linear;
+}
+.secondImage {
+    background-image: url('../images/backgroundWide2.jpg');
+    background-size: cover;
+    opacity: 0;
+    transition: background-position 15s linear,
+    opacity 750ms linear;
+}
+.thirdImage {
+    background-image: url('../images/backgroundWide3.jpg');
+    background-size: cover;
+    background-position: 0 70%;
+    opacity: 0;
+    transition: background-position 15s linear,
+    opacity 750ms linear;
+}
+.fx {
+    background-position: -5rem;
+    opacity: 1;
 }

@@ -1,1 +1,2 @@
 # Mock website for a whiskey store built in ReactJS
+This project is currently hosted on Amazon Amplify at: [https://master.d2mq9rrrl8qes1.amplifyapp.com/](https://master.d2mq9rrrl8qes1.amplifyapp.com/)
