@@ -17,7 +17,7 @@ function Landing () {
                     return index + 1;
                 }
             })
-        }, 14250)
+        }, 15000)
         const elements = document.getElementsByClassName('landingImage');
         elements[index].classList.add('fx');
         if (index === 0) {

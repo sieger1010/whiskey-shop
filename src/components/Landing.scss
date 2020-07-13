@@ -21,21 +21,23 @@
 .firstImage {
     background-image: url('../images/bottles-background-xl.jpg');
     background-size: 110vw auto;
+    background-position: 0% 50%;
     opacity: 0;
     transition: background-position 15s linear,
     opacity 750ms linear;
 }
 .secondImage {
     background-image: url('../images/backgroundWide2.jpg');
-    background-size: cover;
+    background-size: 110vw auto;
+    background-position: 0% 50%;
     opacity: 0;
     transition: background-position 15s linear,
     opacity 750ms linear;
 }
 .thirdImage {
     background-image: url('../images/backgroundWide3.jpg');
-    background-size: cover;
-    background-position: 0 70%;
+    background-size: 110vw auto;
+    background-position: 0% 70%;
     opacity: 0;
     transition: background-position 15s linear,
     opacity 750ms linear;
