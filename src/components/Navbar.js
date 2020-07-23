@@ -22,18 +22,14 @@ function Navbar () {
         })
     })
 
-    return (
-    <div>
-        <div className="container-fluid">
-            <div className="row">
-                <nav className="navbar fixed-top w-100 navbar-dark" id="navContainer">
-                    <a href="/" className="navbar-brand ml-5">
-                        <h1 className="logoFont">WW - Whiskey</h1>
-                    </a>
-                </nav>				
-            </div>
-        </div>
-    </div>
+    return (        
+    <div className="row m-0">
+        <nav className="navbar fixed-top w-100 navbar-dark" id="navContainer">
+            <a href="/" className="navbar-brand ml-5">
+                <h1 className="logoFont">Whiskey Shop</h1>
+            </a>
+        </nav>				
+    </div>         
     );
 }
 export default Navbar;

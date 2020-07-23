@@ -1,7 +1,6 @@
 #landingContainer {
     background-color: #444;
     height: 100vh;
-    width: 100vw;
 }
 #landingOverlay {
     background: radial-gradient(circle at bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6));
@@ -9,11 +8,11 @@
     left: 0;
     top: 0;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
 }
 .landingImage {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     position: absolute;
     left: 0;
     top: 0;
@@ -37,7 +36,7 @@
 .thirdImage {
     background-image: url('../images/backgroundWide3.jpg');
     background-size: 110vw auto;
-    background-position: 0% 70%;
+    background-position: 0% 50%;
     opacity: 0;
     transition: background-position 15s linear,
     opacity 750ms linear;

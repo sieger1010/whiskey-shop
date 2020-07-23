@@ -1,0 +1,59 @@
+{
+    "responseCode": 200,
+    "body": [
+        {
+            "id": 1,
+            "category": "whiskey",
+            "name": "Jack Daniels",
+            "description": "Duis enim dui, ultricies non fermentum sed, porttitor mollis est. Suspendisse fringilla.",
+            "price": 17.50,
+            "stock": 24,
+            "img": ""
+        },
+        {
+            "id": 2,
+            "category": "whiskey",
+            "name": "Johnny Walker Red",
+            "description": "Quisque ultrices fringilla nibh eu consectetur. Fusce tincidunt vel arcu vel pellentesque.",
+            "price": 22.00,
+            "stock": 13,
+            "img": ""
+        },
+        {
+            "id": 3,
+            "category": "whiskey",
+            "name": "Jameson",
+            "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia.",
+            "price": 19.99,
+            "stock": 15,
+            "img": ""
+        },
+        {
+            "id": 4,
+            "category": "wine",
+            "name": "Gato Cabernet Sauvignon",
+            "description": "Curabitur fermentum, felis in congue feugiat, felis elit tincidunt risus, sed blandit.",
+            "price": 4.65,
+            "stock": 8,
+            "img": ""
+        },
+        {
+            "id": 5,
+            "category": "wine",
+            "name": "Casillero del Diablo",
+            "description": "Donec a dignissim ante, nec condimentum ex. Nulla accumsan ante turpis, vitae.",
+            "price": 8.95,
+            "stock": 15,
+            "img": ""
+        },
+        {
+            "id": 6,
+            "category": "spirits",
+            "name": "Fernet Branca",
+            "description": "Nunc quis nibh ut arcu gravida molestie sit amet in tortor. Curabitur.",
+            "price": 11.99,
+            "stock": 4,
+            "img": ""
+        }
+    ]
+}

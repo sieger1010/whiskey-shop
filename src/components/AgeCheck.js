@@ -11,7 +11,7 @@ function AgeCheck() {
         .split('; ')
         .find(row => row.startsWith('AV_passed'))
         .split('=')[1]
-        : false;
+        : false;        
 
     const [userDate, updateDate] = useState({year: 0, month: 0, day: 0});
     const [display, updateDisplay] = useState(!AV_passed);
@@ -81,7 +81,7 @@ function AgeCheck() {
                 
                 <div className="ageCheckWrapper d-flex flex-column justify-content-center text-center" id="ageCheckWrapper">
                             
-                    <h1 className="logoFont text-white">WW - Whiskey</h1>
+                    <h1 className="logoFont text-white">Whiskey Shop</h1>
                     <br />
                     <h3 className="text-white">Please enter your birthdate</h3>
                     <p className="text-white">This is an example website and we don't actually sell any products.</p>

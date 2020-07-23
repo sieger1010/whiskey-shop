@@ -29,12 +29,13 @@ function Landing () {
     })
 
     return (
-        <div>
+        <div className="row m-0">
             <div id="landingContainer">
                 <div className="landingImage firstImage"></div>
                 <div className="landingImage secondImage"></div>
                 <div className="landingImage thirdImage"></div>
                 <div id="landingOverlay"></div>
+                
             </div>
         </div>
     );
