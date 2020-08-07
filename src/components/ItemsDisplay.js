@@ -7,16 +7,12 @@ function ItemsDisplay(props) {
     const [activeCategory, updateActiveCategory] = useState('whiskey')
     useEffect(() => changeActiveLink())
 
-    // const whiskeys = props.items.filter(item => item.category === "whiskey");
-    // const wines = props.items.filter(item => item.category === "wine");
-    // const spirits = props.items.filter(item => item.category === "spirits");
-
     function displayProducts() {
         //TODO fix this function for state when list of items from API is still loading
         if (activeCategory !== null) {
             const itemsByCategory = props.items.filter(item => item.category === activeCategory)
             const html = itemsByCategory.map(item => {
-                return (<ProductCard key={item.id} name={item.name} description={item.description}/>)
+                return (<ProductCard key={item.id} name={item.name} description={item.description} img={item.img} price={item.price}/>)
                 
             })
             

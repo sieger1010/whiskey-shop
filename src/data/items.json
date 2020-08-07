@@ -8,7 +8,7 @@
             "description": "Duis enim dui, ultricies non fermentum sed, porttitor mollis est. Suspendisse fringilla.",
             "price": 17.50,
             "stock": 24,
-            "img": ""
+            "img": "https://whiskey-app-images.s3.us-east-2.amazonaws.com/JackDaniels.jpg"
         },
         {
             "id": 2,
@@ -17,7 +17,7 @@
             "description": "Quisque ultrices fringilla nibh eu consectetur. Fusce tincidunt vel arcu vel pellentesque.",
             "price": 22.00,
             "stock": 13,
-            "img": ""
+            "img": "https://whiskey-app-images.s3.us-east-2.amazonaws.com/JohnnyWalkerRed.png"
         },
         {
             "id": 3,
@@ -26,16 +26,16 @@
             "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia.",
             "price": 19.99,
             "stock": 15,
-            "img": ""
+            "img": "https://whiskey-app-images.s3.us-east-2.amazonaws.com/Jameson.jpg"
         },
         {
             "id": 4,
             "category": "wine",
-            "name": "Gato Cabernet Sauvignon",
+            "name": "Gato Negro",
             "description": "Curabitur fermentum, felis in congue feugiat, felis elit tincidunt risus, sed blandit.",
             "price": 4.65,
             "stock": 8,
-            "img": ""
+            "img": "https://whiskey-app-images.s3.us-east-2.amazonaws.com/Gato+Negro.jpg"
         },
         {
             "id": 5,
@@ -44,7 +44,7 @@
             "description": "Donec a dignissim ante, nec condimentum ex. Nulla accumsan ante turpis, vitae.",
             "price": 8.95,
             "stock": 15,
-            "img": ""
+            "img": "https://whiskey-app-images.s3.us-east-2.amazonaws.com/CasilleroDelDiablo.jpg"
         },
         {
             "id": 6,
@@ -53,7 +53,7 @@
             "description": "Nunc quis nibh ut arcu gravida molestie sit amet in tortor. Curabitur.",
             "price": 11.99,
             "stock": 4,
-            "img": ""
+            "img": "https://whiskey-app-images.s3.us-east-2.amazonaws.com/FernetBranca.jpg"
         }
     ]
 }

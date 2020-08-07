@@ -1,3 +1,35 @@
 .ProductCard {
-    height: 350px;
+    min-height: 380px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    border: 1px solid #444;
+    margin-top: 20px;
+    border-radius: 10px;
+
+    img {
+        height: 180px;
+    }
+    .price {
+        display: inline-block;
+    }
+    .quantityContainer {
+        display: inline-block;
+        font-size: 16pt;
+
+        .button {
+            font-size: 20pt;
+            line-height: 1;
+            border: 1px solid #777;
+            height: 35px;
+            width: 35px;
+            text-align: center;
+            margin: -5px 8px 0 8px;
+            border-radius: 7px;
+            display: inline-block;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
 }

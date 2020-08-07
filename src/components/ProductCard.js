@@ -5,11 +5,17 @@ function ProductCard(props) {
 
     return (
     <div className="col-lg-4 col-12" key={props.id}>
-        <div className="card ProductCard text-center">
+        <div className="ProductCard">
             <div className="card-body">
-                <h5 className="card-title">{props.name}</h5>
-                <img src="" alt={props.name} className="img-thumbnail"/>
-                <p className="card-text">{props.description}</p>
+                <h4 className="card-title text-center">{props.name}</h4>
+                <img src={props.img} alt={props.name} className="mx-auto d-block"/>
+                <p className="card-text text-center">{props.description}</p>
+                <h5 className="price ml-4">${props.price.toFixed(2)}</h5>
+                <div className="quantityContainer float-right mr-4">
+                    <div className="button subtractButton">-</div>
+                    <span className="quantity">0</span>
+                    <div className="button addButton">+</div>
+                </div>                
             </div>
         </div>
     </div>

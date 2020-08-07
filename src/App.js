@@ -1,13 +1,16 @@
-import React from 'react';
+import React, {useState} from 'react';
 import AgeCheck from './components/AgeCheck';
 import Navbar from './components/Navbar';
 import Landing from './components/Landing';
 import ItemsDisplay from './components/ItemsDisplay';
 import './App.css';
 
-
 function App() {
+	const [cart, changeCart] = useState({})
 	const items = require('./data/items.json'); // Simulated API call to imaginary endpoint 'get_all_products'
+
+
+	
 
 	return (		
 		<div className="App">
